@@ -8,24 +8,26 @@ const Layout = () => {
   const { pathname } = useLocation();
   const [isLoading, setLoading] = useState(true);
 
+  const handleLoading = () => {
+    setLoading(false);
+  };
+
   useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 1800);
+    window.addEventListener("load", handleLoading);
     window.scrollTo({ top: 0, behavior: "instant" });
-  }, [pathname]);
+  }, []);
 
   return (
     <div className={`${pathname === "/story" && "dark"}`}>
       <NavBar />
-      {isLoading ? (
-        <>
-          <Loader />
-        </>
-      ) : (
+      {!isLoading ? (
         <>
           <Outlet />
           <Footer />
+        </>
+      ) : (
+        <>
+          <Loader />
         </>
       )}
     </div>
