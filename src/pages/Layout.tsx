@@ -1,4 +1,4 @@
-import { Suspense, lazy, useEffect, useState } from "react";
+import { Suspense, lazy, useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Loader from "../components/Loader";
 
