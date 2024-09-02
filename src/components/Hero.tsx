@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <>
-      <section className="block block__home container">
+      <section className="block__home container">
         <div className="home__border">
           <div className="flex justify--center align--center flex--column home__container">
             <div className="glow glow__home-container"></div>
