@@ -423,33 +423,18 @@ a {
 
 /* LOGO */
 
-.logo,
-.logo__front {
-  width: 100%;
-}
-
 .logo {
   max-width: 55px;
 }
 
 .logo__front {
-  max-width: 300px;
+  max-width: 40vh;
   animation: breathing infinite 3s ease;
 }
 
 @media screen and (max-width: 768px) {
   .logo {
     max-width: 40px;
-  }
-
-  .logo__front {
-    max-width: 200px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .logo__front {
-    max-width: 150px;
   }
 }
 
@@ -577,7 +562,7 @@ a {
 }
 
 .block__home {
-  padding: 15vh 2rem 7rem;
+  padding: 15rem 1rem 7rem;
 }
 
 .block__works {
@@ -604,20 +589,12 @@ a {
     padding: 5rem 2rem;
   }
 
-  .block__home {
-    padding: 10vh 2rem 7rem;
-  }
-
   .block__works {
     padding: 5rem 2rem;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .block__home {
-    padding: 10vh 2rem 2rem;
-  }
-
   .block__works {
     padding: 0 2rem 7rem;
   }
@@ -760,7 +737,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
   gap: 2rem;
   animation: zoom-in 3s ease;
@@ -933,13 +909,17 @@ a {
     gap: 0.5rem;
   }
 
+  .nav__lists,
+  .hamburger__menu {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
   .nav__lists {
     position: absolute;
     right: 20px;
     top: 70px;
     background-color: #92929223;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
     padding: -2rem;
     border-radius: 15px;
     display: flex;
@@ -1022,6 +1002,10 @@ footer {
 
   .logo__footer {
     max-width: 200px;
+  }
+
+  .footer__container {
+    text-align: center;
   }
 
   .footer__link {
@@ -2112,7 +2096,7 @@ header h1 {
 
 @media screen and (max-width: 768px) {
   .logs {
-    padding: 18vh 2rem 2rem;
+    padding: 15rem 2rem 2rem;
     min-height: 0;
   }
 

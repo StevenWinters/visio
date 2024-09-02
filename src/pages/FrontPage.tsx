@@ -3,7 +3,7 @@ import Logo from "../components/Logo";
 
 const FrontPage = () => {
   return (
-    <section className="block front">
+    <section className="block block--full front">
       <div className="glow glow__front"></div>
       <Logo className="logo__front" />
       <h1 className="heading__front">VISIO</h1>
