@@ -937,7 +937,9 @@ a {
     position: absolute;
     right: 20px;
     top: 70px;
-    background-color: var(--color-dark);
+    background-color: #92929223;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     padding: -2rem;
     border-radius: 15px;
     display: flex;
@@ -1270,6 +1272,14 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .work__container:hover .showcase__img {
+    transform: translateY(0);
+  }
+
+  .work__container:hover .icon-arrow {
+    transform: translateX(0);
+  }
+
   .work__container:nth-child(1) .showcase {
     background: linear-gradient(var(--color-primary), var(--color-dark));
   }
