@@ -15,6 +15,7 @@ const Layout = () => {
   useEffect(() => {
     window.addEventListener("load", handleLoading);
     window.scrollTo({ top: 0, behavior: "instant" });
+    return () => window.removeEventListener("load", handleLoading);
   }, []);
 
   return (
