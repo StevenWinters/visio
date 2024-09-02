@@ -1,4 +1,4 @@
-import Beach from "../assets/stevenson/beach.jpg";
+import Info from "../assets/stevenson/info.png";
 import Header from "./Header";
 
 const Details = () => {
@@ -8,7 +8,7 @@ const Details = () => {
       <div className="grid grid--1x2 info">
         <div className="flex flex--column align--center info__white">
           <div className="info__image">
-            <img className="img img--circle" src={Beach} alt="Breeze" />
+            <img className="img img--circle" src={Info} alt="Breeze" />
           </div>
           <div className="flex flex--column info__sections">
             <span className="text--medium text--dark info__section">

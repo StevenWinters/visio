@@ -2000,7 +2000,12 @@ header h1 {
 
 .story__center {
   text-align: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 35vh 0;
+}
+
+.story__uncertainty {
+  margin-bottom: 10rem;
 }
 
 .story__mobile {
@@ -2029,6 +2034,14 @@ header h1 {
 
   .story__content h3 {
     font-size: 2.3rem;
+  }
+
+  .story__center {
+    padding: 20vh 0;
+  }
+
+  .story__uncertainty {
+    margin-bottom: 7rem;
   }
 
   .story__desktop {
@@ -2286,6 +2299,13 @@ tr:nth-child(even) {
     margin: 0;
   }
 
+  .info__image::before {
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: 12px;
+  }
+
   .info__section {
     margin-bottom: 0;
   }
@@ -2310,8 +2330,10 @@ tr:nth-child(even) {
   }
 
   .info__image::before {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
   }
 }
 

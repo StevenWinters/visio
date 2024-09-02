@@ -1,5 +1,10 @@
 import ImageComponent from "./ImageComponent";
-import Beach from "../assets/stevenson/beach.jpg";
+import Past from "../assets/stevenson/past.png";
+import Welcome from "../assets/stevenson/welcome.png";
+import Problem from "../assets/stevenson/problem.png";
+import Design from "../assets/stevenson/design.png";
+import Value from "../assets/stevenson/value.png";
+import Uncertainty from "../assets/stevenson/uncertainty.png";
 
 const StoryContent = () => {
   return (
@@ -9,7 +14,7 @@ const StoryContent = () => {
           <div className="grid grid--1x2 story__grid story__desktop">
             <div className="story__container">
               <article>
-                <ImageComponent src={Beach} />
+                <ImageComponent src={Welcome} />
                 <div className="content__description">
                   <h3>My Past</h3>
                   <p>
@@ -24,7 +29,7 @@ const StoryContent = () => {
                 </div>
               </article>
               <article>
-                <ImageComponent src={Beach} />
+                <ImageComponent src={Design} />
                 <div className="content__description">
                   <h3>The Problem…</h3>
                   <p>
@@ -44,7 +49,7 @@ const StoryContent = () => {
                 <h2 className="content__heading">
                   Welcome to my world. I hope you find it interesting.
                 </h2>
-                <ImageComponent src={Beach} />
+                <ImageComponent src={Past} />
               </article>
               <article>
                 <div className="content__description content__margin">
@@ -58,19 +63,19 @@ const StoryContent = () => {
                     cooler.
                   </p>
                 </div>
-                <ImageComponent src={Beach} />
+                <ImageComponent src={Problem} />
               </article>
             </div>
           </div>
           <div className="story__mobile">
             <article>
-              <ImageComponent src={Beach} />
+              <ImageComponent src={Welcome} />
               <h2 className="content__heading">
                 Welcome to my world. I hope you find it interesting.
               </h2>
             </article>
             <article>
-              <ImageComponent src={Beach} />
+              <ImageComponent src={Past} />
               <div className="content__description">
                 <h3>My Past</h3>
                 <p>
@@ -86,7 +91,7 @@ const StoryContent = () => {
               </div>
             </article>
             <article>
-              <ImageComponent src={Beach} />
+              <ImageComponent src={Design} />
               <div className="content__description content__margin">
                 <h3>The Real Stuff...</h3>
                 <p>
@@ -99,7 +104,7 @@ const StoryContent = () => {
               </div>
             </article>
             <article>
-              <ImageComponent src={Beach} />
+              <ImageComponent src={Problem} />
               <div className="content__description">
                 <h3>The Problem…</h3>
                 <p>
@@ -115,7 +120,7 @@ const StoryContent = () => {
             </article>
           </div>
           <article className="grid grid--1x2 grid--center align--center gap--lg story__box">
-            <ImageComponent src={Beach} />
+            <ImageComponent src={Value} />
             <div className="box__description">
               <h3>Value</h3>
               <p>
@@ -129,13 +134,16 @@ const StoryContent = () => {
             </div>
           </article>
           <article className="flex flex--column justify--center align--center story__center">
-            <h3>Uncertainty</h3>
-            <p>
-              Though I am certain that I would be taking up programming, I am
-              still uncertain if my main issue would be to solve problems for
-              education. However, the time will pass by, and soon I'll find my
-              true purpose in life.
-            </p>
+            <div className="story__uncertainty">
+              <h3>Uncertainty</h3>
+              <p>
+                Though I am certain that I would be taking up programming, I am
+                still uncertain if my main issue would be to solve problems for
+                education. However, the time will pass by, and soon I'll find my
+                true purpose in life.
+              </p>
+            </div>
+            <ImageComponent src={Uncertainty} />
             <div className="glow glow__uncertainty"></div>
           </article>
         </div>
