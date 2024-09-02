@@ -8,15 +8,16 @@ const Layout = () => {
   const { pathname } = useLocation();
   const [isLoading, setLoading] = useState(true);
 
-  const handleLoading = () => {
-    setLoading(false);
-  };
-
   useEffect(() => {
-    document.addEventListener("DOMContentLoaded", handleLoading);
+    const handleLoading = () => {
+      setLoading(false);
+    };
+    window.addEventListener("load", handleLoading);
+
     window.scrollTo({ top: 0, behavior: "instant" });
-    return () => document.removeEventListener("load", handleLoading);
-  }, []);
+
+    return () => window.removeEventListener("load", handleLoading);
+  }, [pathname]);
 
   return (
     <div className={`${pathname === "/story" && "dark"}`}>
