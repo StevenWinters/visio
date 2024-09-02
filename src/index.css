@@ -2373,6 +2373,7 @@ tr:nth-child(even) {
 .loader {
   min-height: 100vh;
   text-align: center;
+  animation: reveal 1s ease;
 }
 
 .loader__heading {
@@ -2454,5 +2455,11 @@ tr:nth-child(even) {
   100% {
     transform: rotate(360deg);
     box-shadow: 1px 5px 2px var(--color-accent2);
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
   }
 }
