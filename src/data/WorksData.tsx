@@ -95,7 +95,7 @@ export const websitesData = [
     title: "Taste of Doomsday",
     description: "Hazard exploration, guidance",
     link: "https://stevenwinters.github.io/PWUTasteOfDoomsday/",
-    credits: "Credits to the Grade 10 PWU SY 2022-2023",
+    credits: "Credits to the Grade 10 PWU Team SY 2022-2023",
   },
 ];
 
