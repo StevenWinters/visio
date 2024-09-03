@@ -7,6 +7,7 @@ interface Props {
     title: string;
     description: string;
     link?: string;
+    credits?: string;
   }[];
   className?: string;
 }
@@ -18,8 +19,9 @@ const Works = ({ heading, worksData, className }: Props) => {
       <div>
         {worksData.map((data) => (
           <div key={data.id} className="work__project">
-            <h3>{data.title}</h3>
+            <h3 className="project__heading">{data.title}</h3>
             <p className="project__description">{data.description}</p>
+            <span className="text--sm project__credits">{data.credits}</span>
             {data.link ? (
               <Link
                 className="link project__link"

@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
         <div className="copyright__container">
           <p className="copyright">
-            Copyright &copy; 2023. All Rights Reserved.
+            Copyright &copy; 2024. All Rights Reserved.
           </p>
           <p className="">Powered by Mathew Stevenson Chin</p>
         </div>

@@ -16,8 +16,8 @@ const Hero = () => {
               <h1 className="home__heading">
                 <span className="highlight--secondary">Vision</span> for the{" "}
                 <span className="highlight--accent1">BEST.</span> <br />
-                <span className="highlight--secondary">Vision</span> for the{" "}
-                <span className="highlight--accent2">REST.</span>
+                <span className="highlight--secondary">Vision</span> for{" "}
+                <span className="highlight--accent2">SUCCESS.</span>
               </h1>
               <div className="flex flex--column gap--sm home__sub-header">
                 <span>A Portfolio Designed By</span>

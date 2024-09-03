@@ -16,7 +16,7 @@ const StoryContent = () => {
               <article>
                 <ImageComponent src={Welcome} />
                 <div className="content__description">
-                  <h3>My Past</h3>
+                  <h3>My Past.</h3>
                   <p>
                     When I was 5, I loved playing video games that involved
                     building, like horror maps/ships/cities. I also liked the
@@ -31,7 +31,7 @@ const StoryContent = () => {
               <article>
                 <ImageComponent src={Design} />
                 <div className="content__description">
-                  <h3>The Problem…</h3>
+                  <h3>The Problem.</h3>
                   <p>
                     Based on my experience in school, I saw that education was
                     not progressing fast enough. In other words, I thought it
@@ -53,7 +53,7 @@ const StoryContent = () => {
               </article>
               <article>
                 <div className="content__description content__margin">
-                  <h3>The Real Stuff...</h3>
+                  <h3>The Real Stuff.</h3>
                   <p>
                     Now that I had some background in designing, I decided to
                     take up programming. Programming, from what I know of, was a
@@ -77,7 +77,7 @@ const StoryContent = () => {
             <article>
               <ImageComponent src={Past} />
               <div className="content__description">
-                <h3>My Past</h3>
+                <h3>My Past.</h3>
                 <p>
                   When I was 5, I loved playing video games that involved
                   building, like horror maps/ships/cities. I also liked the idea
@@ -93,7 +93,7 @@ const StoryContent = () => {
             <article>
               <ImageComponent src={Design} />
               <div className="content__description content__margin">
-                <h3>The Real Stuff...</h3>
+                <h3>The Real Stuff.</h3>
                 <p>
                   Now that I had some background in designing, I decided to take
                   up programming. Programming, from what I know of, was a place
@@ -106,7 +106,7 @@ const StoryContent = () => {
             <article>
               <ImageComponent src={Problem} />
               <div className="content__description">
-                <h3>The Problem…</h3>
+                <h3>The Problem.</h3>
                 <p>
                   Based on my experience in school, I saw that education was not
                   progressing fast enough. In other words, I thought it was not
@@ -122,20 +122,19 @@ const StoryContent = () => {
           <article className="grid grid--1x2 grid--center align--center gap--lg story__box">
             <ImageComponent src={Value} />
             <div className="box__description">
-              <h3>Value</h3>
+              <h3>Value.</h3>
               <p>
                 So, I decided to digest as much information as possible in the
                 field of ICT or anything computer-related to solve these types
                 of problems. <br /> <br />
                 With this, I could create valuable content that can be shared
-                throughout the world, hoping to reach and save people's time and
-                lives.
+                throughout the world, hoping to reach and save people's lives.
               </p>
             </div>
           </article>
           <article className="flex flex--column justify--center align--center story__center">
             <div className="story__uncertainty">
-              <h3>Uncertainty</h3>
+              <h3>Uncertainty.</h3>
               <p>
                 Though I am certain that I would be taking up programming, I am
                 still uncertain if my main issue would be to solve problems for
