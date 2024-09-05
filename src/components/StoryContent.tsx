@@ -128,7 +128,7 @@ const StoryContent = () => {
                 field of ICT or anything computer-related to solve these types
                 of problems. <br /> <br />
                 With this, I could create valuable content that can be shared
-                throughout the world, hoping to reach and save people's lives.
+                throughout the world, hoping to reach and edcuate others.
               </p>
             </div>
           </article>
